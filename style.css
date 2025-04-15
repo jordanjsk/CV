@@ -1,0 +1,121 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9fb;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    border-bottom: 2px solid #ececec;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0078d4;
+}
+
+.header-text h1 {
+    font-size: 2.2rem;
+    margin: 0;
+    color: #0078d4;
+}
+
+.contact {
+    margin: 0.2rem 0;
+    color: #555;
+    font-weight: 500;
+}
+
+.summary {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #0078d4;
+    border-left: 5px solid #0078d4;
+    padding-left: 10px;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.job {
+    margin-bottom: 1.5rem;
+}
+
+.date {
+    color: #999;
+    font-size: 0.95rem;
+    font-style: italic;
+}
+
+h3 {
+    margin: 0.2rem 0;
+    font-size: 1.2rem;
+    color: #222;
+}
+
+.location {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+ul {
+    padding-left: 1.2rem;
+    line-height: 1.6;
+}
+
+.highlights ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    gap: 1.5rem;
+    list-style-type: disc;
+}
+
+.education p, .hobbies p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .highlights ul {
+        columns: 1;
+    }
+}
